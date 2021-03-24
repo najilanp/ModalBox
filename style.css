@@ -1,0 +1,73 @@
+
+
+#myBtn{
+    margin: 50px;
+}
+
+.footerbtn{
+    float: right;
+    margin-right: 8px;
+}
+
+.modal {
+   
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  .modal-header {
+    padding: 2px 16px;
+    background-color:yellow;
+    color:darkgray;
+  }
+
+  /* Modal Footer */
+  .modal-footer {
+    padding: 25px 16px 30px 16px;
+    background-color: yellow;
+    color: white;
+  }
+  /* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+  
+  /* Modal Content */
+.modal-content {
+    position: relative;
+    margin :200px 200px;
+    background-color: #fefefe;
+    margin:15% auto; 
+    padding: 20;
+    border: 1px solid #888;
+    width: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+
+ 
+  
+  /* The Close Button */
+  .close {
+   
+    float: right;
+    font-size: xx-large;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
